@@ -1,5 +1,5 @@
 html {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Georgia', serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -40,7 +40,7 @@ fieldset, pre, table {
 
 .droid{
 
-  font-family: 'Droid Serif', serif;
+  font-family: 'Georgia', serif;
   font-size: 2.2807rem;
   line-height: 1.3154;
 }
