@@ -5,29 +5,44 @@ html {
 
 body{
 	margin: 0;
+	padding: 0;
+}
+.logo {
+	background-image: url("../img/logo.png");
+	background-size: 35px auto;
+	background-repeat: no-repeat;
+	background-position:  center center;
+
+
 }
 
-.orange{
-	color: rgb(255, 97, 0);
+.orange {
+	color: rgb(255, 48, 0);
+	text-align: right;
+	font-size: 1.5rem;
+	line-height: 1.8729;
 }
 
 
 .hero {
 
+	max-height: 75vh
 	position: relative;
-	max-height: 100vh
 	overflow: hidden;
-	background: url("../img/lava-main.jpg") no-repeat center top / cover;
+	background: 
+	linear-gradient(to top, rgba(0,0,0,0.5), transparent) no-repeat center bottom / 100% 50%,
+	url("../img/lava-main.jpg") no-repeat center top / cover;
 	padding-top: 56.25%;
 }
 
 .hero-content {
-	padding: 0 1rem;
+	padding: 0;
 	position: absolute;
 	width: 100%;
-	bottom: 15%;
+	bottom: 65%;
 
-	font-size: 4rem;
+	font-size: 3.5rem;
+	text-position: top right;
 	text-align: center;
 	text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgb(0,0,0,0.8);
 }4
