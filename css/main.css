@@ -23,13 +23,13 @@ body{
 	line-height: 1.8729;
 	font-family: 'Merriweather', serif;
 	padding-right: 3rem;
+	margin-bottom: 0rem;
 }
 
 .white {
  color: white;
  text-align: center;
  font-family: 'Merriweather', serif;
- font-size: 2rem;;
 }
 
 
@@ -54,10 +54,8 @@ body{
 	text-position: top right;
 	text-align: center;
 	text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgb(0,0,0,0.8);
+
 }
 
-.nav{
 
-	position: absolute;
-}
 
