@@ -72,7 +72,7 @@ body{
 .nav a {
 
 	display: block;
-	padding: 0.5rem;
+	padding: 0.3rem;
 	text-decoration: none;
 	color: #000;
 }
@@ -100,16 +100,20 @@ body{
 	cursor: pointer;
 	font-size: 1.25rem;
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	position: relative;
 	right: 0;
 	bottom: 0;
 	background-image: url("../img/navButton.svg");
-	background-size: 55px auto;
+	background-repeat: no-repeat;
+	background-size: 53px auto;
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
+	padding-right: 20%;
+	padding-left: 30%;
+
 }
 
 .nav-check:checked ~ .nav-label {
@@ -118,7 +122,13 @@ body{
 	background-position: center bottom;
 }
 
+@media only screen and (min-width: 20em) {
+	.nav-label {
 
+		display: inline-block;
+		width: 50%;
+	}
+}
 
 
 
