@@ -3,9 +3,13 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="143px" height="191px" viewBox="-234 301 143 191" enable-background="new -234 301 143 191" xml:space="preserve">
-<rect x="-219.7" y="349.2" fill="#FF3000" width="114.4" height="17.1"/>
-<rect x="-219.7" y="315" fill="#FF3000" width="114.4" height="17.1"/>
-<rect x="-219.7" y="383.6" fill="#FF3000" width="114.4" height="17.1"/>
-<rect x="-208.1" y="443.2" transform="matrix(0.8287 0.5597 -0.5597 0.8287 223.7838 168.6084)" fill="#4F4F4F" width="89.1" height="13.3"/>
-<rect x="-208.1" y="443.2" transform="matrix(-0.8287 0.5597 -0.5597 -0.8287 -47.1922 914.1119)" fill="#4F4F4F" width="89.1" height="13.3"/>
+<g>
+	<rect x="-219.7" y="349" fill="#FF3000" width="114.4" height="17.1"/>
+	<rect x="-219.7" y="314.8" fill="#FF3000" width="114.4" height="17.1"/>
+	<rect x="-219.7" y="383.4" fill="#FF3000" width="114.4" height="17.1"/>
+	
+		<rect x="-208.1" y="443.1" transform="matrix(-0.8287 -0.5597 0.5597 -0.8287 -550.8211 730.8638)" fill="#4F4F4F" width="89.1" height="13.3"/>
+	
+		<rect x="-208.1" y="442.9" transform="matrix(0.8287 -0.5597 0.5597 0.8287 -279.632 -14.5012)" fill="#4F4F4F" width="89.1" height="13.3"/>
+</g>
 </svg>
